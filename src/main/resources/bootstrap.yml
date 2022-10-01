@@ -1,6 +1,7 @@
 encrypt:
 #  key: abcdefghijklmnopqrstuvwxyz0123456789
   key-store:
-    location: file://${user.home}/downloads/study/keystore/apiEncryptionKey.jks   # 비공개키파일을 생성한 폴더 경로
+#    location: file://${user.home}/downloads/study/keystore/apiEncryptionKey.jks   # 비공개키파일을 생성한 폴더 경로
+    location: file:/apiEncryptionKey.jks
     password: test1234    # 비공개키를 만들때 설정한 비밀번호
     alias: apiEncryptionKey   #비공개키를 만들때 설정한 닉네임

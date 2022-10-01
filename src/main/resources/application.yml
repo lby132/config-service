@@ -19,6 +19,7 @@ spring:
         git:
 #          uri: file:///Users/lby/Downloads/study/git-local-repo
           uri: https://github.com/lby132/spring-clould-config
+
 management:
   endpoints:
     web:
